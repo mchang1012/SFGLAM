@@ -1,9 +1,9 @@
-Sensory Friendly Finder - Chrome Extension
+Sensory Friendly Makeup Finder - Chrome Extension
 =======================================
 
 About
 -----
-This Chrome extension analyzes Amazon beauty product reviews and calculates a "Makeup Sensory Score."
+This Chrome extension, "SFGLAM" analyzes Amazon beauty product reviews and calculates a "Makeup Sensory Score." The objective of this project was to make shopping online for neurodivergent individuals who may struggle with hypersensitivity to be able to identify the best non-triggering products. 
 The score reflects how sensory-friendly a product is, based on keywords like:
 - Positive: fragrance-free, lightweight, non-sticky, soothing
 - Negative: greasy, heavy, irritating, strong scent
