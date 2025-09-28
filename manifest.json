@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Makeup Sensory Score",
+    "version": "1.0",
+    "description": "Analyze Amazon beauty product reviews for sensory-friendly qualities.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://www.amazon.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.amazon.com/*"
+        ],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_title": "Makeup Sensory Score",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
